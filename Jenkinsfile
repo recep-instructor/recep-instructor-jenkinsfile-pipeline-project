@@ -7,6 +7,8 @@ pipeline {
                 sh 'echo using shell within Jenkinsfile'
                 sh 'echo Recep'
                 echo 'not using shell in the Jenkinsfile'
+            }
+        }
         stage('test') {
             steps {
                 sh 'echo Adem'
@@ -16,5 +18,4 @@ pipeline {
             }
         }
     }
-}
-}
+
